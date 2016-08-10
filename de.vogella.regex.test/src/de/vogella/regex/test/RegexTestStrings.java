@@ -10,7 +10,7 @@ public class RegexTestStrings {
 		System.out.println("Resultado do EXAMPLE_TEST.matches:");
 		System.out.println(EXAMPLE_TEST.matches("\\w.*")+"\n");
 		
-		// split -> separa as palavras peos espaços em branco (que são jogados fora) e
+		// split -> separa as palavras pelos espaços em branco (que são jogados fora) e
 		// armazena cada palavra no array de String splitString
 		String[] splitString = (EXAMPLE_TEST.split("\\s+"));
 		
