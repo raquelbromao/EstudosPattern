@@ -7,7 +7,7 @@ public class Teste extends StringMatcher {
 		String sim1 = "yes";
 		String sim2 = "Yes";
 		String contemVerdadeiro = "its alive and its true";
-		String contem3 = "amor doce bombom";
+		String contem3 = "abc";
 		String numeroInicio = "3 sorvetes";
 		String numeroFim = "muitos sorvetes 3";
 		String comB = "aagsfahdhfb";
@@ -51,7 +51,7 @@ public class Teste extends StringMatcher {
 		System.out.println("\n");
 		System.out.println("## Verifica método isThreeLetters");
 		
-		//VERIFICA SE SÃO EXATAMENTE 3 LETRAS
+		//VERIFICA SE SÃO EXATAMENTE 3 LETRAS (CARACTERES)
 		
 		///////////////////////// VERIFICAR ESSA FUNÇÃO E RESULTADOS
 		
