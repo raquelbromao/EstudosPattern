@@ -21,33 +21,59 @@ public class Teste extends StringMatcher {
 		//Eu podia ter apenas colocado strings diretamente na chamada da função,
 		//mas sou distraída e criei todas elas
 		
+		System.out.println("## Verifica método isTrue");
+		
 		//VERIFICA SE É EXATAMENTE true
 		superTeste.isTrue(verdadeiro1); //VERDADEIRO
 		superTeste.isTrue(verdadeiro2); //FALSO
+		
+		System.out.println("\n");
+		System.out.println("## Verifica método isTrueVersion2");
 		
 		//VERIFICA SE É EXATAMENTE true ou True
 		superTeste.isTrueVersion2(verdadeiro1); //VERDADEIRO
 		superTeste.isTrueVersion2(verdadeiro2); //VERDADEIRO
 		
+		System.out.println("\n");
+		System.out.println("## Verifica método isTrueOrYes");
+		
 		//VERIFICA SE É EXATAMENTE yes, Yes, true ou True
 		superTeste.isTrueOrYes(sim1); //VERDADEIRO
 		superTeste.isTrueOrYes(sim2); //VERDADEIRO
+		
+		System.out.println("\n");
+		System.out.println("## Verifica método containsTrue");
 		
 		//VERIFICA SE CONTÊM true
 		superTeste.containsTrue(contemVerdadeiro); //VERDADEIRO
 		superTeste.containsTrue(contem3); //FALSO
 		
+		System.out.println("\n");
+		System.out.println("## Verifica método isThreeLetters");
+		
 		//VERIFICA SE SÃO EXATAMENTE 3 LETRAS
+		
+		///////////////////////// VERIFICAR ESSA FUNÇÃO E RESULTADOS
+		
 		superTeste.isThreeLetters(contem3); //VERDADEIRO
 		superTeste.isThreeLetters(maior300); //FALSO
 		
+		System.out.println("\n");
+		System.out.println("## Verifica método isNoNumberAtBeginning");
+		
 		//VERIFICA SE NÃO É NÚMERO NO INÍCIO
 		superTeste.isNoNumberAtBeginning(numeroFim); //VERDADEIRO
-		superTeste.isNoNumberAtBeginning(numeroInicio); //FIM
+		superTeste.isNoNumberAtBeginning(numeroInicio); //FALSO
+		
+		System.out.println("\n");
+		System.out.println("## Verifica método isIntersection");
 		
 		//VERIFICA SE NÃO POSSUI b
 		superTeste.isIntersection(semB); //VERDADEIRO
 		superTeste.isIntersection(comB); //FALSO
+		
+		System.out.println("\n");
+		System.out.println("## Verifica método isLessThenThreeHundred");
 		
 		//VERIFICA SE O NÚMERO É MENOR QUE 300
 		superTeste.isLessThenThreeHundred(menor300); //VERDADEIRO
